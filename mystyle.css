@@ -1,0 +1,152 @@
+/* body
+-------------------------------------------------*/
+body {
+background: url("images/flowers.jpg");  
+background-size: cover;
+height: 100%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+text-align: center;
+   
+font-family: sans-serif;
+font-weight: 100;
+}
+
+
+/* navbar
+-------------------------------------------------*/
+.navbar-brand {
+  
+  font-size: 35px;
+ 
+}
+
+/* JUMBOTRON
+-------------------------------------------------- */
+.jumbotron {
+    background: url("images/boots.jpg");
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    font-size: 40px;
+   color: white;
+  font-family:  Helvetica, sans-serif;
+  padding-top: 240px;
+}
+
+.h1heading {
+  
+  text-align: center;
+ 
+}
+
+/* coutdown
+------------------------------------------------------*/
+
+h1{
+  color: #396;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+}
+
+#clockdiv{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+
+#clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    background: #00BF96;
+    display: inline-block;
+}
+
+#clockdiv div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: #00816A;
+    display: inline-block;
+}
+
+.smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+ .featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+  text-align: left;
+}
+
+.lead {
+  text-align: left;
+}
+
+/* footer
+---------------------------------*/
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+ .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
